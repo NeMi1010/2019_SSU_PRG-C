@@ -1,1 +1,1 @@
-# 2019_SSU_PRG-C_CPP
+# 2019_SSU_PRG-C_C++
