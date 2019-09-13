@@ -1,19 +1,16 @@
 #include <stdio.h>
-
 int main(void) {
+
+	int x, y, z, sum;
+
+	sum = 0;
+	printf("3개의 정수를 입력하세요 (x, y, z) : ");
+	scanf("%d %d %d", &x, &y, &z);
+	sum += x;
+	sum += y;
+	sum += z;
+	printf("3개의 정수의 합은 %d\n", sum);
 	
-	int x;
-	int y;
-	int sum;
-
-	printf("첫번째 숫자를 입력하시오 : ");
-	scanf("%d", &x);
-
-	printf("두번째 숫자를 입력하시오 : ");
-	scanf("%d", &y);
-
-	sum = x + y;
-	printf("두 수의 합 : %d\n", sum);
-
 	return 0;
+
 }
