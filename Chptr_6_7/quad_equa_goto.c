@@ -9,13 +9,9 @@ int main(void) {
 	printf("a, b, c : ");
 	scanf("%d %d %d", &a, &b, &c);
 
-	if(a == 0 && b == 0) { 
-		printf((c==0)?"해는 무수히 많습니다.\n":"해가 존재하지 않습니다.\n");
-		goto RTN;
-	}	
-
 	if(a == 0) {
-		printf("%lf\n", (double)c / b);
+		if(b == 0) printf((c==0)?"해는 무수히 많습니다.\n":"해가 존재하지 않습니다.\n");
+		else printf("%lf\n", (double)c / b);
 		goto RTN;
 	}
 
