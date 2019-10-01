@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define DEBUG
+//#define DEBUG
 typedef unsigned int usi_t;
 
 usi_t clear_bit(usi_t n, usi_t i) {
